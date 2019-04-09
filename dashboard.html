@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pin-waste reusable table components</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/form/pw-form.css">
+    <link rel="stylesheet" href="css/form/pw-input-text.css">
+    <link rel="stylesheet" href="css/form/pw-buttons.css">
+    <link rel="stylesheet" href="css/form/pw-search.css">
+    <link rel="stylesheet" href="css/form/pw-select.css">
+    <link rel="stylesheet" href="css/form/pw-radio.css">
+    <link rel="stylesheet" href="css/form/pw-checkbox.css">
+
+    <link rel="stylesheet" href="css/navbar/navbar.css">
+    <link rel="stylesheet" href="css/table/table.css">
+    <link rel="stylesheet" href="css/dashboard/dashboard.css">
+    <link rel="stylesheet" href="css/dashboard/dashboard-table.css">
+</head>
+<body>
+    
+    <nav class="pw-main-admin-nav">
+        <ul class="pw-main-admin-nav_list">
+            <li class="pw-main-admin-nav_list_item"><a href="form.html">Form</a></li>
+            <li class="pw-main-admin-nav_list_item"><a href="table.html">Tables</a></li>
+            <li class="pw-main-admin-nav_list_item active"><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+	<main>
+        <h1>Dashboard</h1>
+        <section class="pw-dashboard-main">
+            
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small"><span>Total Balances Due</span></h4>
+                <button class="pw-dashboard-item_ellipsis_button"><i class="fas fa-ellipsis-h"></i></button>
+                <div class="pw-dashboard-item_body">$50,000</div>
+            </div>
+            
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small">Doors</h4>
+                <div class="pw-dashboard-item_body">450</div>
+            </div>
+
+            
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small">Sub Communities</h4>
+                <div class="pw-dashboard-item_body">2,400</div>
+            </div>
+            
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small">Sub Communities</h4>
+                <div class="pw-dashboard-item_body">2,400</div>
+            </div>
+            
+            <div class="pw-dashboard-item col-2">
+                <h4 class="pw-dashboard-item_header">
+                    <span>balances by <a href="#">Month</a><i class="fa fa-chart-bar"></i></span>
+                </h4>
+                <div class="pw-selectbox">
+                    <select class="pw-selectbox-select">
+                        <option value="name">Name</option>
+                        <option value="community_name">Community name</option>
+                        <option value="some_else">Some else</option>
+                    </select>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="pw-dashboard-item_body">
+                    <a href="#">Avg. $5,309</a>
+                    <a href="#">Avg. Per Door. $149</a>
+                    <a href="#">Avg. Per Community $149</a>
+                </div>
+            </div>
+            <div class="pw-dashboard-item col-2">
+                
+                <h4 class="pw-dashboard-item_header">
+                    <span>top <a href="#">communities</a> by <a href="#">Month</a>
+                </h4>
+                <div class="pw-selectbox">
+                    <select class="pw-selectbox-select">
+                        <option value="name">Name</option>
+                        <option value="community_name">Community name</option>
+                        <option value="some_else">Some else</option>
+                    </select>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="pw-selectbox">
+                    <select class="pw-selectbox-select">
+                        <option value="name">Name</option>
+                        <option value="community_name">Community name</option>
+                        <option value="some_else">Some else</option>
+                    </select>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+                <div class="pw-dashboard-item_body">
+                    <table class="pw-dashboard-item_table">
+                        <thead class="pw-dashboard-item_table_head">
+                            <tr class="pw-dashboard-item_table_tr">
+                                <th class="pw-dashboard-item_table_th">community</th>
+                                <th class="pw-dashboard-item_table_th">doors</th>
+                                <th class="pw-dashboard-item_table_th">users</th>
+                                <th class="pw-dashboard-item_table_th">balance</th>
+                                <th class="pw-dashboard-item_table_th">conversion</th>
+                            </tr>
+                        </thead>
+                        <tbody class="pw-dashboard-item_table_body">
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                            <tr class="pw-dashboard-item_table_tr">
+                                <td class="pw-dashboard-item_table_td">adobe.com</td>
+                                <td class="pw-dashboard-item_table_td">3746</td>
+                                <td class="pw-dashboard-item_table_td">762</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                                <td class="pw-dashboard-item_table_td">$19,291</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+        <aside class="pw-dashboard-aside">
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small">Communities</h4>
+                <div class="pw-dashboard-item_body">200</div>
+            </div>
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header-small">overdue invoices</h4>
+                <div class="pw-dashboard-item_body">2,400</div>
+            </div>
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header">
+                    <span>Support</span>
+                </h4>
+                <a href="#" class="pw-dashboard-item_link">Zendesk</a>
+                <div class="pw-dashboard-item_body">
+                    <ul class="pw-dashboard-item_list">
+                        <li class="pw-dashboard-item_list_item"><span>Open</span><span>200</span></li>
+                        <li class="pw-dashboard-item_list_item"><span>Pending</span><span>300</span></li>
+                        <li class="pw-dashboard-item_list_item"><span>Resolved</span><span>400</span></li>
+                        <li class="pw-dashboard-item_list_item"><span>Total Tickets</span><span>900</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pw-dashboard-item">
+                <h4 class="pw-dashboard-item_header"><span>Report</span></h4>
+                <div class="pw-dashboard-item_body">
+                    <div class="pw-text-input pw-search-input-bar">
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="address" class="pw-text-input_input" placeholder="Report">
+                        <span class="pw-text-input_border"></span>
+                    </div>
+                    <ul class="pw-dashboard-item_list linked-list">
+                        <li class="pw-dashboard-item_list_item"><a href="#">Open</a><span>200</span></li>
+                        <li class="pw-dashboard-item_list_item"><a href="#">Pending</a><span>300</span></li>
+                        <li class="pw-dashboard-item_list_item"><a href="#">Resolved</a><span>400</span></li>
+                        <li class="pw-dashboard-item_list_item"><a href="#">Total Tickets</a><span>900</span></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+	</main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

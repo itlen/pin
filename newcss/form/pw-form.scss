@@ -1,0 +1,31 @@
+@import "./pw-select.scss";
+@import "./pw-input-text.scss";
+@import "./pw-buttons.scss";
+@import "./pw-search.scss";
+@import "./pw-checkbox.scss";
+@import "./pw-radio.scss";
+
+.pw-form {
+	font-size: 16px;
+	line-height: 24px;
+    color: #989898;
+}
+
+.pw-fieldset {
+    padding: 14px;
+    border: 1px solid #d0d7dd;
+}
+
+.pw-fieldset_caption {
+    padding: 0 4px;
+    color: #989898;
+}
+
+
+
+
+
+
+
+
+

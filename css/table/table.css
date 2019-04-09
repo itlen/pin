@@ -1,0 +1,107 @@
+.pw-table {
+	text-align: left;
+	border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  color: var(--content-text-color);
+	border-spacing: 0;
+	border: solid 1px #d0d7dd;
+ 	border-radius: 5px;
+}
+
+.pw-table_head {
+    background-color: #f8f8f8;
+}
+
+.pw-table_tr {
+    border: 0;
+    min-height: 60px;
+    border-bottom: solid 1px #d0d7dd;
+}
+
+.pw-table_th {
+	width: auto;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: bold;
+	letter-spacing: .58px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 15px;
+	background-color: #f8f8f8;
+}
+
+.pw-table_th, 
+.pw-table_td {
+    box-sizing: border-box;
+}
+
+.pw-table .selection {
+    width: 85px;
+    padding: 15px 30px;
+}
+
+.pw-table_th.select {
+    width: 10%;
+}
+
+.pw-table_th a {
+	text-decoration: none;
+}
+
+.pw-table_td {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #323c47;
+}
+
+.pw-table .center {
+	text-align: center;
+}
+
+.pw-table .pw-checkbox {
+    padding: 0;
+    clear: both;
+}
+
+.pw-table_label {
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 8px;
+}
+
+.pw-table_label.red { background-color: var(--color-red); }
+.pw-table_label.grey { background-color: #D0D7DD; }
+.pw-table_label.blue { background-color: var(--color-light-blue); }
+.pw-table_label.yellow { background-color: yellow; }
+
+.pw-table a {
+    color: var(--color-light-blue);
+	text-decoration: none;
+}
+
+.pw-table a:hover,
+.pw-table a:focus {
+    outline-offset: 4px;
+    outline: 2px solid var(--color-light-blue);
+}
+
+
+
+
+
+
+
+
+

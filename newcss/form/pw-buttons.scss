@@ -1,0 +1,27 @@
+/* pw-buttons */
+
+
+
+.pw-btn {
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+    cursor: pointer;
+}
+
+.pw-btn:hover,
+.pw-btn:focus {
+	outline: none;
+	text-decoration: underline;
+}
+
+.pw-btn-primary {
+    color: #FFFFFF;
+    background-color: #4DA1FF;
+    text-transform: uppercase;
+    padding: 9px 30px;
+    font-size: 14px;
+    min-width: 130px;
+    min-height: 100%;
+    font-weight: 700;
+}

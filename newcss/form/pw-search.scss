@@ -1,0 +1,15 @@
+.pw-search-input-bar .pw-input-text:focus + .pw-text-input_border {
+    border-radius: 5px 8px 8px 5px;
+}
+
+.pw-text-input i {
+    padding: 0 5px;
+    color: #998898;
+}
+
+.pw-search-input-bar .pw-btn {
+	min-height: 40px;
+	border-radius: 0 5px 5px 0;
+	position: relative;
+    z-index: 2;
+}

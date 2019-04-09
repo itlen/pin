@@ -1,0 +1,37 @@
+header,
+footer {
+	display:none;
+}
+
+@import "./pw-select.css";
+@import "./pw-input-text.css";
+@import "./pw-buttons.css";
+@import "./pw-search.css";
+@import "./pw-checkbox.css";
+@import "./pw-radio.css";
+
+
+.pw-form {
+	font-size: 16px;
+	line-height: 24px;
+    color: #989898;
+}
+
+.pw-fieldset {
+    padding: 14px;
+    border: 1px solid #d0d7dd;
+}
+
+.pw-fieldset_caption {
+    padding: 0 4px;
+    color: #989898;
+}
+
+
+
+
+
+
+
+
+

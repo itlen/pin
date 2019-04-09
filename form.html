@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pin-waste reusable form components</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/form/pw-form.css">
+    <link rel="stylesheet" href="css/form/pw-input-text.css">
+    <link rel="stylesheet" href="css/form/pw-buttons.css">
+    <link rel="stylesheet" href="css/form/pw-search.css">
+    <link rel="stylesheet" href="css/form/pw-select.css">
+    <link rel="stylesheet" href="css/form/pw-radio.css">
+    <link rel="stylesheet" href="css/form/pw-checkbox.css">
+
+    <link rel="stylesheet" href="css/navbar/navbar.css">
+</head>
+<body>
+    
+    <nav class="pw-main-admin-nav">
+        <ul class="pw-main-admin-nav_list">
+            <li class="pw-main-admin-nav_list_item"><a href="form.html">Form</a></li>
+            <li class="pw-main-admin-nav_list_item"><a href="table.html">Tables</a></li>
+            <li class="pw-main-admin-nav_list_item active"><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+	<main>
+    	
+    	<div class="pw-selectbox">
+            <select class="pw-selectbox-select">
+                <option value="name">Name</option>
+                <option value="community_name">Community name</option>
+                <option value="some_else">Some else</option>
+            </select>
+            <i class="fa fa-chevron-down"></i>
+        </div>
+
+        <br>
+
+        <div class="pw-text-input">
+            <i class="fa fa-pencil-alt"></i>
+            <input type="text" class="pw-text-input_input" placeholder="Text">
+            <span class="pw-text-input_border"></span>
+        </div>
+
+        <br>
+
+        <div class="pw-text-input pw-search-input-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" class="pw-text-input_input" placeholder="Search">
+            <span class="pw-text-input_border"></span>
+            <button class="pw-btn pw-btn-primary">Search</button>
+        </div>
+
+        <br>
+
+        <fieldset class="pw-fieldset">
+
+            <legend class="pw-fieldset_caption">Fieldset caption</legend>
+
+            <div class="pw-checkbox minus">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input" checked>
+                    <span class="pw-checkbox_label-text">Minus checked</span>
+                </label>
+            </div>
+
+            <div class="pw-checkbox">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input" checked disabled>
+                    <span class="pw-checkbox_label-text">Label</span>
+                </label>
+            </div>
+
+            <div class="pw-checkbox">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input" disabled>
+                    <span class="pw-checkbox_label-text">Label</span>
+                </label>
+            </div>
+
+            <div class="pw-checkbox">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input">
+                    <span class="pw-checkbox_label-text">Label</span>
+                </label>
+            </div>
+
+            <div class="pw-checkbox">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input">
+                    <span class="pw-checkbox_label-text">Label</span>
+                </label>
+            </div>
+
+            <div class="pw-checkbox">
+                <label class="pw-checkbox_label">
+                    <input type="checkbox" value="8" class="pw-checkbox_input">
+                    <span class="pw-checkbox_label-text">Label</span>
+                </label>
+            </div>
+            <br>
+            <hr>
+            <fieldset class="pw-fieldset">
+                <legend class="pw-fieldset_caption">Some another caption</legend>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input">
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input" checked>
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input" disabled>
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input">
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input">
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+                <div class="pw-radiobutton">
+                    <label class="pw-radiobutton_label">
+                        <input type="radio" name="radio" class="pw-radiobutton_input">
+                        <span class="pw-radiobutton_label-text">Radiobutton 1</span>
+                    </label>
+                </div>
+            </fieldset>
+        </fieldset>
+	</main>
+
+</body>
+</html>

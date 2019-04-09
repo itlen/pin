@@ -1,0 +1,26 @@
+.pw-dashboard-item_table {
+	width: 725px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+	line-height: 2em;
+    text-align: center;
+    color: var(--content-text-color);
+}
+
+.pw-dashboard-item_table_head {
+	font-size: 13px;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: #a3a6b4;
+	background-color: #f8f8f8;
+}
+
+.pw-dashboard-item_table_body {
+	font-size: 14px;
+	line-height: 50px;
+}
+
+.pw-dashboard-item_table_tr:not(:first-child) {
+	border-top: 1px solid #d0d7dd;
+}

@@ -1,0 +1,41 @@
+.pw-text-input {
+	position: relative;
+    min-width: 140px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 14px;
+    border: 1px solid #d0d7dd;
+    border-radius: 5px 6px 6px 5px;
+    background: white;
+}
+
+.pw-text-input_input {
+    flex-grow: 1;
+    height: 100%;
+    border: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: none;
+    color: #998898;
+    background: inherit;
+    position: relative;
+    z-index: 1;
+}
+
+.pw-text-input:hover .pw-text-input_border,
+.pw-text-input_input:focus + .pw-text-input_border {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid #4ca0ff;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+
+
+
+

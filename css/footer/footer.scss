@@ -1,0 +1,50 @@
+.main-footer {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.main-footer a {
+	text-decoration: underline;
+}
+
+.main-footer-wrapper {
+	max-width: 968px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: #989898;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.main-footer-wrapper_mission {
+	flex-basis: 50%;
+	margin: 0 2em 0 0;
+	padding-top: 39px;
+}
+
+.main-footer-wrapper_mission_contact {
+	padding-top: 78px;
+	flex-basis: calc(50% - 2em);
+}
+
+.main-footer-wrapper_mission_contact p {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

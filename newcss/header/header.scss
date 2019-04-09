@@ -1,0 +1,106 @@
+/* header */
+.main-header {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.main-header_list {
+	max-width: 1160px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main-header_list_logo {
+    width: auto;
+    height: 60px;
+}
+
+/* 'img' tag have to has a class */
+.main-header_list_logo img {
+	max-height: 100%;
+}
+
+ /* 'a' tag have to has a class */
+.main-header_list_user,
+.main-header_list_user a {
+	color: #989898;
+}
+
+.main-header_list_user a:hover {
+	color: #4DA1FF;
+}
+
+.main-header_list_user a:active {
+	text-decoration: none;
+}
+
+.main-header_list_user a:focus {
+	outline: 3px solid rgba(21, 101, 192, 0.6);
+    outline-offset: 2px;
+    text-decoration: none;
+}
+
+.main-header_list_user_name {
+	font-weight: 700;
+    color: black;
+}
+
+.main-header_list_button-wrapper {
+	width: 48px;
+	height: 48px;
+    transform: translateX(8px);
+    display: none;
+    flex-basis: 100%;
+}
+
+.main-header_list_button {
+	width: 48px;
+    height: 100%;
+    float: right;
+    padding: 0;
+    background: transparent;
+}
+
+.main-header_list_button:hover {
+	border: 2px solid rgba(21, 101, 192, 0.4);
+}
+
+.main-header_list_button:focus {
+	border: 3px solid rgba(21, 101, 192, 0.6);
+}
+
+/* 'img' tag have to has a class */
+.main-header_list_button img {
+    width: 24px;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 420px) {
+
+	.main-header_list {
+		padding: 8px;
+	}
+/* remove display: none; if need a logout link in mobile version */
+	.main-header_list_text {
+		/*display: none;*/
+		text-align: right;
+	}
+	
+	.main-header_list_user_name_divider {
+		display: none;
+	}
+	
+	.main-header_list_user a {
+		display: block;
+	}
+
+	.main-header_list_button-wrapper {
+    	display: block;
+    	transform: translateX(12px);
+	}
+
+}

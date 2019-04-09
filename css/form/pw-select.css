@@ -1,0 +1,38 @@
+.pw-selectbox {
+    position: relative;
+    min-width: 140px;
+    min-height: 40px;
+}
+
+.pw-selectbox-select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: transparent;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 20px;
+    border: 1px solid #d0d7dd;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #989898;
+    outline: none;
+}
+
+.pw-selectbox-select:hover,
+.pw-selectbox-select:focus {
+	border: 2px solid #4ca0ff;
+}
+
+.pw-selectbox i {
+    color: #989898;
+    position: absolute;
+    right: 10px;
+    z-index: 9;
+    line-height: 40px;
+    font-size: 14px;
+}
